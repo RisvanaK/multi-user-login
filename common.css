@@ -1,0 +1,152 @@
+
+:root{
+   --blue:#0097e6;
+   --orange:#f39c12;
+   --red:#e74c3c;
+   --white:#fff;
+   --light-color:#aaa;
+   --black:#222;
+   --light-bg:#333;
+}
+
+
+html{
+background-color: white;
+}
+
+.container{
+  
+    background-color: black;
+    height: 120px;
+    width:100%;
+   
+  
+}
+.heading{
+    
+    color:white;
+    text-align: center;
+    padding:7px;
+
+
+}
+.btn{
+    background-color: var(--orange);
+ }
+ 
+ .delete-btn{
+    background-color: var(--red);
+ }
+ 
+ .option-btn{
+    background-color: var(--orange);
+ }
+ .logout-btn{
+   background-color: var(--orange);
+ }
+.insert-btn
+{
+   background-color: var(--orange);
+}
+ 
+ .btn:hover,
+ .delete-btn:hover,
+ .option-btn:hover{
+    background-color: var(--white);
+    color:var(--black);
+ }
+ table, td, th {  
+   border: 1px solid #ddd;
+   text-align: left;
+ }
+ 
+ table {
+   border-collapse: collapse;
+   width: 100%;
+ }
+ 
+ th, td {
+   padding: 15px;
+ }
+ tr:hover {background-color: orange;}
+ .logout-button {
+   background-color: orange; /* Green */
+   border: none;
+   border-radius: 20px;
+   color: white;
+   padding: 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 2px;
+   cursor: pointer;
+ } 
+ table, td, th {  
+   border: 1px solid #ddd;
+   text-align: left;
+ }
+ 
+ table {
+   border-collapse: collapse;
+   width: 100%;
+ }
+ 
+ th, td {
+   padding: 15px;
+ }
+ tr:hover {background-color: orange;}
+ .add {
+  background-color: orange; 
+   text-decoration:none;
+   border: none;
+   border-radius: 10px;
+   color: white;
+   padding: 10px;
+   text-align: center;
+   text-decoration: none;
+   font-size: 16px;
+   margin: 4px 2px;
+   cursor: pointer;
+ } 
+ .logout 
+ {
+  background-color: grey; 
+text-decoration:none;
+   border: none;
+   border-radius: 10px;
+   color: white;
+   padding: 10px;
+   text-align: center;
+   text-decoration: none;
+ font-size: 16px;
+   margin: 4px 2px;
+   cursor: pointer;
+ }
+ .update {
+  background-color:orange; 
+text-decoration:none;
+   border: none;
+   border-radius: 10px;
+   color: white;
+   padding: 10px;
+   text-align: center;
+   text-decoration: none;
+ font-size: 16px;
+   margin: 4px 2px;
+   cursor: pointer;
+ }
+.delete{
+ 
+  background-color: grey; 
+text-decoration:none;
+   border: none;
+   border-radius: 10px;
+   color: white;
+   padding: 10px;
+   text-align: center;
+   text-decoration: none;
+ font-size: 16px;
+   margin: 4px 2px;
+   cursor: pointer;
+ }
